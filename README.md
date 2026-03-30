@@ -1,35 +1,28 @@
 <div align="center">
 
-<img src="assets/StackFlow.png" alt="StackFlow Banner" width="100%" style="border-radius: 16px; box-shadow: 0 12px 40px rgba(0,0,0,0.2);"/>
+<img src="assets/StackFlow.png" alt="StackFlow Banner" width="100%" style="margin-bottom: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);"/>
 
-<br/>
-<br/>
+<h1>⚡ StackFlow — Full-Stack Web Development Learning Journey</h1>
 
-# ⚡ StackFlow
+<p style="color: #2563eb; margin: 15px 0; font-size: 1.1em;">🚀 A structured, hands-on full-stack web development learning repository covering HTML fundamentals, CSS styling, and JavaScript interactivity — built through real lab programs, practical experiments, and progressive challenges.</p>
 
-### *Your Full-Stack Web Development Learning Journey — From Zero to Hero*
+<p style="font-size: 1.2em; color: #1e40af; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 20px; border-radius: 12px; max-width: 800px; margin: 20px auto; line-height: 1.6; border-left: 4px solid #2563eb;">
+🏗️ <b>19 Lab Programs</b> with examples | 🎨 <b>CSS Styling</b> | ⚙️ <b>JavaScript Logic</b> | 📄 <b>HTML Structure</b>
+</p>
 
-<br/>
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
-
-<br/>
-
-> 🚀 **StackFlow** is a structured, hands-on full-stack web development learning repository.  
-> It covers everything from HTML fundamentals and CSS styling to JavaScript interactivity —  
-> built through real lab programs, practical experiments, and progressive challenges.
-
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
 
 </div>
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
 
 ```
 StackFlow/
@@ -82,32 +75,42 @@ StackFlow/
 
 ## 🎯 Core Pages
 
-| File | What You'll Learn |
-|------|-------------------|
-| [index.html](index.html) | HTML document structure, semantic tags, basic navigation |
-| [heading.html](heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` usage |
-| [formating.html](formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, `<blockquote>` |
-| [colors.html](colors.html) | Inline styles, named colors, hex, RGB, `<abbr>`, `<bdo>` |
-| [linktags.html](linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, anchor scroll |
-| [style.css](style.css) | Global CSS — background color, font color |
+<div align="center">
+
+| 📄 File | 🎯 What You'll Learn |
+|---------|----------------------|
+| **[index.html](index.html)** | HTML document structure, semantic tags, basic navigation |
+| **[heading.html](heading.html)** | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` usage |
+| **[formating.html](formating.html)** | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, `<blockquote>` |
+| **[colors.html](colors.html)** | Inline styles, named colors, hex, RGB, `<abbr>`, `<bdo>` |
+| **[linktags.html](linktags.html)** | `<a>` tags, `mailto:`, `target="_blank"`, anchor scroll |
+| **[style.css](style.css)** | Global CSS — background color, font color |
+
+</div>
 
 ---
 
-## 🧪 PCS-693 — FSWD Lab Programs
+## 💻 PCS-693 — FSWD Lab Programs
 
-### 🏗️ HTML Fundamentals
+### 🛠️ HTML Fundamentals
 
-| # | File | Concept |
-|---|------|---------|
+<div align="center">
+
+| # | 📄 File | 📚 Concept |
+|---|---------|------------|
 | 1 | [P1.html](PCS-693/P1.html) | `<strong>`, `<em>`, `<mark>`, `<code>`, `<kbd>`, `<samp>`, `<pre>`, `<abbr>` |
 | 2 | [P2.html](PCS-693/P2.html) | Complex table — `rowspan` & `colspan` (Course-wise subjects) |
 | 3 | [P3.html](PCS-693/P3.html) | Image table — Mobile network logos with `colspan` |
 | 4 | [P4.html](PCS-693/P4.html) | Image map — Clickable regions using `<map>` and `<area>` |
 
+</div>
+
 ### 🎨 CSS Styling
 
-| # | File | Concept |
-|---|------|---------|
+<div align="center">
+
+| # | 📄 File | 📚 Concept |
+|---|---------|------------|
 | 5 | [P5.html](PCS-693/P5.html) | Link pseudo-classes — `:link`, `:visited`, `:active` |
 | 6 | [P6.html](PCS-693/P6.html) | `box-shadow` and `text-shadow` |
 | 7 | [P7.html](PCS-693/P7.html) | `border-radius` — Rounded corners |
@@ -119,27 +122,19 @@ StackFlow/
 | 13 | [P13.html](PCS-693/P13.html) | Full webpage — header, nav, sections, footer with full CSS |
 | 18 | [P18.html](PCS-693/P18.html) | Scrolling status bar — CSS `@keyframes` + `translateX` animation |
 
+</div>
+
 ### ⚙️ JavaScript
 
-| # | File | Concept |
-|---|------|---------|
+<div align="center">
+
+| # | 📄 File | 📚 Concept |
+|---|---------|------------|
 | 14 | [P14.html](PCS-693/P14.html) | Credit card validator — regex for Visa, MasterCard, Amex |
 | 15 | [P15.html](PCS-693/P15.html) | Form validation — name, email, password with regex |
 | 16 | [P16.html](PCS-693/P16.html) | Birthday checker — day of week using `Date` object |
 | 17 | [P17.html](PCS-693/P17.html) | Live clock — self-updating page using `setInterval` |
 | 19 | [P19.html](PCS-693/P19.html) | Car survey — dynamic results table with JS object tracking |
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-| Layer | Technology | What's Covered |
-|-------|-----------|----------------|
-| 📄 Structure | HTML5 | Semantic markup, tables, forms, image maps, links |
-| 🎨 Styling | CSS3 | Flexbox, transitions, animations, backgrounds, shadows, pseudo-classes |
-| ⚙️ Logic | JavaScript | DOM manipulation, form validation, regex, Date API, setInterval |
 
 </div>
 
@@ -165,65 +160,116 @@ python -m http.server 8000
 
 ---
 
-## 🎓 What You'll Learn
+## 🎓 Learning Outcomes
 
-```
-HTML5
- ├─ Semantic structure & document layout
- ├─ Tables with rowspan / colspan
- ├─ Forms, inputs, labels
- ├─ Image maps with <map> and <area>
- └─ Links — internal, external, mailto, anchor scroll
+After exploring this project, you will understand:
 
-CSS3
- ├─ Box model — margin, padding, border
- ├─ Shadows — box-shadow, text-shadow
- ├─ Backgrounds — fixed, positioned, resizable
- ├─ Transitions & transforms on hover
- ├─ Multi-column layouts
- ├─ Pseudo-classes — :link, :visited, :hover, :active
- └─ Keyframe animations
-
-JavaScript
- ├─ DOM selection & manipulation
- ├─ Form validation with regex
- ├─ Date API — getDay(), getHours(), etc.
- ├─ setInterval for live updates
- └─ Dynamic table generation with JS objects
-```
+✅ **HTML Structure** - Semantic markup, tables, forms, image maps  
+✅ **CSS Styling** - Box model, shadows, backgrounds, transitions, animations  
+✅ **JavaScript DOM** - Selection, manipulation, and dynamic rendering  
+✅ **Form Validation** - Regex-based input validation patterns  
+✅ **CSS Animations** - Keyframes, transforms, and pseudo-classes  
+✅ **Date API** - Working with `Date` object and time-based logic  
+✅ **Live Updates** - `setInterval` for real-time page updates  
+✅ **Responsive Design** - Multi-column layouts and flexible backgrounds
 
 ---
 
-## 📬 Contact
+## 🛠️ Tech Stack
 
 <div align="center">
 
-**👤 Abhishek Giri** — Creator & Maintainer
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishek-giri04)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhishekgiri04)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhishekgiri.dev@gmail.com)
+<table>
+<thead>
+<tr>
+<th>🖥️ Technology</th>
+<th>⚙️ Purpose</th>
+<th>📊 What's Covered</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></td>
+<td>Structure & Markup</td>
+<td>Semantic tags, tables, forms, image maps, links</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></td>
+<td>Styling & Layout</td>
+<td>Flexbox, transitions, animations, backgrounds, shadows, pseudo-classes</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></td>
+<td>Interactivity & Logic</td>
+<td>DOM manipulation, form validation, regex, Date API, setInterval</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
 ---
 
-## 📄 License
+## 🌟 Key Features
 
-MIT License — see [LICENSE](LICENSE) for details.
+- **📄 19 Lab Programs** — Covering a wide range of web development concepts
+- **📚 Educational** — Clear, well-structured code with progressive difficulty
+- **🚀 Practical** — Real-world HTML, CSS, and JavaScript use cases
+- **🔧 Modular** — Separate files for each concept, easy to explore
+- **⚙️ Zero Setup** — No build tools or dependencies, just open in a browser
+- **💡 Learning-Focused** — Step-by-step progression from basics to JS interactivity
+
+---
+
+## 📞 Contact & Support
+
+<div align="center">
+
+> 💬 *Questions about StackFlow?*  
+> Feel free to reach out for help or collaboration!
+
+<br/>
+
+**👤 Abhishek Giri** — Creator & Maintainer
+
+<a href="https://linkedin.com/in/abhishek-giri04">
+  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+</a>  
+<a href="https://github.com/abhishekgiri04">
+  <img src="https://img.shields.io/badge/Follow%20on-GitHub-100000?style=for-the-badge&logo=github" alt="GitHub"/>
+</a>  
+<a href="mailto:abhishekgiri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
+</a>
+
+</div>
 
 ---
 
 <div align="center">
 
-**⚡ StackFlow — Learn the Stack. Build the Web.**
+## 📄 License
 
-[![Made with HTML CSS JS](https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JS-FF6B6B?style=for-the-badge)]()
-[![For Learning](https://img.shields.io/badge/Purpose-Learning-4CAF50?style=for-the-badge)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge)]()
+This project is open source and available under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-*© 2026 Abhishek Giri · StackFlow*
+---
+
+**⚡ Built with ❤️ for Learning Web Development**  
+*Mastering HTML, CSS & JavaScript from the ground up*
+
+<p style="font-size: 1.1em; color: #1e40af; margin: 20px 0;">
+<b>StackFlow</b> — Full-Stack Web Development Learning Journey<br/>
+<em>Building strong foundations in modern web development</em>
+</p>
+
+---
+
+**© 2026 Abhishek Giri | StackFlow**
+
+*Empowering developers with practical web development skills*
+
+<img src="https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JS-FF6B6B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Purpose-Learning-4CAF50?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge"/>
 
 </div>
