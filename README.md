@@ -7,7 +7,7 @@
 <p style="color: #2563eb; margin: 15px 0; font-size: 1.1em;">🚀 A structured, hands-on full-stack web development learning repository covering HTML fundamentals, CSS styling, and JavaScript interactivity — built through real lab programs, practical experiments, and progressive challenges.</p>
 
 <p style="font-size: 1.2em; color: #1e40af; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 20px; border-radius: 12px; max-width: 800px; margin: 20px auto; line-height: 1.6; border-left: 4px solid #2563eb;">
-🏗️ <b>19 Lab Programs</b> with examples | 🎨 <b>CSS Styling</b> | ⚙️ <b>JavaScript Logic</b> | 📄 <b>HTML Structure</b>
+🧩 <b>19 Lab Programs</b> with examples | 🎨 <b>CSS Styling</b> | 🛠️ <b>JavaScript Logic</b> | 📄 <b>HTML Structure</b>
 </p>
 
 <p align="center">
@@ -22,69 +22,69 @@
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Directory Structure
 
 ```
 StackFlow/
+├── 📄 index.html               # Main landing page (semantic HTML)
+├── 📄 heading.html             # H1–H6 hierarchy, <pre>, <hr>, <br>
+├── 📄 formating.html           # Text formatting: bold, italic, sub, sup
+├── 📄 colors.html              # Colors, inline styles, <abbr>, <bdo>, <cite>
+├── 📄 linktags.html            # Anchor tags, mailto, internal anchors
+├── 📄 style.css                # Global stylesheet (background, typography)
+├── 📄 README.md                # Project documentation
+├── 📄 LICENSE                  # MIT License
+├── 📄 .gitignore               # Git ignore patterns
 │
-├── 📄 index.html               → Main landing page (document structure, semantic HTML)
-├── 📄 heading.html             → H1–H6 hierarchy, <pre>, <hr>, <br>
-├── 📄 formating.html           → Text formatting: bold, italic, sub, sup, blockquote
-├── 📄 colors.html              → Colors, inline styles, <abbr>, <bdo>, <cite>
-├── 📄 linktags.html            → Anchor tags, mailto, internal anchors, scroll
-├── 📄 style.css                → Global stylesheet (background, typography)
+├── 📂 assets/                  # Static assets
+│   └── 🖼️  StackFlow.png       # Project banner
 │
-├── 📂 assets/
-│   └── 🖼️ StackFlow.png        → Project banner
-│
-├── 📂 PCS-693/                 → FSWD Lab Programs (19 practicals)
-│   │
-│   ├── ── HTML ──
-│   ├── 📄 P1.html              → Text formatting tags
-│   ├── 📄 P2.html              → Table with rowspan & colspan
-│   ├── 📄 P3.html              → Image table (mobile network logos)
-│   ├── 📄 P4.html              → Image map with clickable areas
-│   │
-│   ├── ── CSS ──
-│   ├── 📄 P5.html              → Link pseudo-classes (:link, :visited, :active)
-│   ├── 📄 P6.html              → box-shadow and text-shadow
-│   ├── 📄 P7.html              → border-radius (rounded corners)
-│   ├── 📄 P8.html              → Multi-column newspaper layout
-│   ├── 📄 P9.html              → CSS transitions + rotate on hover
-│   ├── 📄 P10.html             → Fixed background (background-attachment: fixed)
-│   ├── 📄 P11.html             → Background positioning + repeat-x
-│   ├── 📄 P12.html             → Resizable background (background-size: 50%)
-│   ├── 📄 P13.html             → Full webpage: header, nav, sections, footer
-│   ├── 📄 P18.html             → Scrolling status bar (@keyframes animation)
-│   │
-│   ├── ── JavaScript ──
-│   ├── 📄 P14.html             → Credit card validator (Visa, MasterCard, Amex)
-│   ├── 📄 P15.html             → Form validation (name, email, password + regex)
-│   ├── 📄 P16.html             → Birthday day-of-week checker (Date API)
-│   ├── 📄 P17.html             → Live clock (self-updating via setInterval)
-│   ├── 📄 P19.html             → Car survey with dynamic results table
-│   │
-│   └── 📄 FSWD Lab Manual.pdf  → Official lab manual
-│
-├── 📄 README.md
-├── 📄 LICENSE
-└── 📄 .gitignore
+└── 📂 PCS-693/                 # FSWD Lab Programs (19 Practicals)
+    │
+    ├── 🧩 HTML Fundamentals
+    │   ├── 📄 P1.html          # Text formatting tags
+    │   ├── 📄 P2.html          # Table with rowspan & colspan
+    │   ├── 📄 P3.html          # Image table (mobile network logos)
+    │   └── 📄 P4.html          # Image map with clickable areas
+    │
+    ├── 🎨 CSS Styling
+    │   ├── 📄 P5.html          # Link pseudo-classes (:link, :visited, :active)
+    │   ├── 📄 P6.html          # box-shadow and text-shadow
+    │   ├── 📄 P7.html          # border-radius (rounded corners)
+    │   ├── 📄 P8.html          # Multi-column newspaper layout
+    │   ├── 📄 P9.html          # CSS transitions + rotate on hover
+    │   ├── 📄 P10.html         # Fixed background (background-attachment: fixed)
+    │   ├── 📄 P11.html         # Background positioning + repeat-x
+    │   ├── 📄 P12.html         # Resizable background (background-size: 50%)
+    │   ├── 📄 P13.html         # Full webpage: header, nav, sections, footer
+    │   └── 📄 P18.html         # Scrolling status bar (@keyframes animation)
+    │
+    ├── 🛠️ JavaScript
+    │   ├── 📄 P14.html         # Credit card validator (Visa, MasterCard, Amex)
+    │   ├── 📄 P15.html         # Form validation (name, email, password + regex)
+    │   ├── 📄 P16.html         # Birthday day-of-week checker (Date API)
+    │   ├── 📄 P17.html         # Live clock (self-updating via setInterval)
+    │   └── 📄 P19.html         # Car survey with dynamic results table
+    │
+    └── 📄 FSWD Lab Manual.pdf  # Official lab manual
 ```
 
 ---
 
-## 🎯 Core Pages
+<div>
 
 <div align="center">
 
+## 🎯 Core Pages
+
 | 📄 File | 🎯 What You'll Learn |
 |---------|----------------------|
-| **[index.html](index.html)** | HTML document structure, semantic tags, basic navigation |
-| **[heading.html](heading.html)** | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` usage |
-| **[formating.html](formating.html)** | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, `<blockquote>` |
-| **[colors.html](colors.html)** | Inline styles, named colors, hex, RGB, `<abbr>`, `<bdo>` |
-| **[linktags.html](linktags.html)** | `<a>` tags, `mailto:`, `target="_blank"`, anchor scroll |
-| **[style.css](style.css)** | Global CSS — background color, font color |
+| [index.html](index.html) | HTML document structure, semantic tags, basic navigation |
+| [heading.html](heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` usage |
+| [formating.html](formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, `<blockquote>` |
+| [colors.html](colors.html) | Inline styles, named colors, hex, RGB, `<abbr>`, `<bdo>` |
+| [linktags.html](linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, anchor scroll |
+| [style.css](style.css) | Global CSS — background color, font color |
 
 </div>
 
@@ -92,9 +92,7 @@ StackFlow/
 
 ## 💻 PCS-693 — FSWD Lab Programs
 
-### 🛠️ HTML Fundamentals
-
-<div align="center">
+### 📦 HTML Fundamentals
 
 | # | 📄 File | 📚 Concept |
 |---|---------|------------|
@@ -103,11 +101,7 @@ StackFlow/
 | 3 | [P3.html](PCS-693/P3.html) | Image table — Mobile network logos with `colspan` |
 | 4 | [P4.html](PCS-693/P4.html) | Image map — Clickable regions using `<map>` and `<area>` |
 
-</div>
-
 ### 🎨 CSS Styling
-
-<div align="center">
 
 | # | 📄 File | 📚 Concept |
 |---|---------|------------|
@@ -122,11 +116,7 @@ StackFlow/
 | 13 | [P13.html](PCS-693/P13.html) | Full webpage — header, nav, sections, footer with full CSS |
 | 18 | [P18.html](PCS-693/P18.html) | Scrolling status bar — CSS `@keyframes` + `translateX` animation |
 
-</div>
-
 ### ⚙️ JavaScript
-
-<div align="center">
 
 | # | 📄 File | 📚 Concept |
 |---|---------|------------|
@@ -135,8 +125,6 @@ StackFlow/
 | 16 | [P16.html](PCS-693/P16.html) | Birthday checker — day of week using `Date` object |
 | 17 | [P17.html](PCS-693/P17.html) | Live clock — self-updating page using `setInterval` |
 | 19 | [P19.html](PCS-693/P19.html) | Car survey — dynamic results table with JS object tracking |
-
-</div>
 
 ---
 
