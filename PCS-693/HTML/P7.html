@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hotel Customer Profile</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+/* Gender styling fix */
+.gender {
+    margin-bottom: 15px;
+}
+
+.gender label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Hotel Customer Profile Form</h2>
+
+<form>
+
+    <!-- Name -->
+    <label>Name:</label>
+    <input type="text" placeholder="Enter name" required>
+
+    <!-- Address -->
+    <label>Address:</label>
+    <input type="text" placeholder="Enter address" required>
+
+    <!-- Age -->
+    <label>Age:</label>
+    <input type="number" min="1" max="120" required>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <div class="gender">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Other"> Other</label>
+    </div>
+
+    <!-- Room Type -->
+    <label>Room Type:</label>
+    <select>
+        <option>A/C</option>
+        <option>Non-A/C</option>
+        <option>Deluxe</option>
+    </select>
+
+    <!-- Payment Type -->
+    <label>Payment Type:</label>
+    <select>
+        <option>Cash</option>
+        <option>Credit/Debit Card</option>
+        <option>Coupons</option>
+    </select>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

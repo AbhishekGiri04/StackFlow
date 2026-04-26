@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Case Converter</title>
+</head>
+
+<body>
+
+<h2>Uppercase ↔ Lowercase Converter</h2>
+
+<input type="text" id="inputStr" placeholder="Enter string">
+<button onclick="toggleCase()">Convert</button>
+
+<p id="result"></p>
+
+<script>
+
+function toggleCase() {
+
+    let str = document.getElementById("inputStr").value;
+    let result = "";
+
+    for (let i = 0; i < str.length; i++) {
+
+        let ch = str[i];
+
+        // if uppercase → convert to lowercase
+        if (ch === ch.toUpperCase()) {
+            result += ch.toLowerCase();
+        }
+        // if lowercase → convert to uppercase
+        else {
+            result += ch.toUpperCase();
+        }
+    }
+
+    document.getElementById("result").innerText =
+        "Converted String: " + result;
+}
+
+</script>
+
+</body>
+</html>

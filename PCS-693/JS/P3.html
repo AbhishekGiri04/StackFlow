@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Capital Checker</title>
+</head>
+
+<body>
+
+<h2>Match the Country with its Capital</h2>
+
+<!-- Country dropdown -->
+<label>Select Country:</label>
+<select id="country">
+    <option value="">--Select Country--</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Japan">Japan</option>
+    <option value="France">France</option>
+</select>
+
+<br><br>
+
+<!-- Capital dropdown -->
+<label>Select Capital:</label>
+<select id="capital">
+    <option value="">--Select Capital--</option>
+    <option value="New Delhi">New Delhi</option>
+    <option value="Washington DC">Washington DC</option>
+    <option value="Tokyo">Tokyo</option>
+    <option value="Paris">Paris</option>
+</select>
+
+<br><br>
+
+<button onclick="checkMatch()">Check Answer</button>
+
+<script>
+function checkMatch() {
+
+    let country = document.getElementById("country").value;
+    let capital = document.getElementById("capital").value;
+
+    // correct pairs stored
+    let data = {
+        "India": "New Delhi",
+        "USA": "Washington DC",
+        "Japan": "Tokyo",
+        "France": "Paris"
+    };
+
+    if (country === "" || capital === "") {
+        alert("Please select both country and capital");
+        return;
+    }
+
+    if (data[country] === capital) {
+        alert("Correct answer ✔");
+    } else {
+        alert("Wrong answer Correct capital of " + country + " is " + data[country]);
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Effect using CSS3</title>
+
+    <style>
+        .transition-box {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 100px auto;
+
+            /* Transition effect */
+            transition: background-color 2s, transform 2s;
+        }
+
+        .transition-box:hover {
+            background-color: red;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+
+    <h2 align="center">CSS3 Transition Effect</h2>
+
+    <div class="transition-box"></div>
+
+</body>
+</html>

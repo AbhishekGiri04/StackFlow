@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Telephone Split</title>
+</head>
+
+<body>
+
+<h2>Telephone Number Parser</h2>
+
+<label>Enter Phone Number (format: (555)555-555):</label><br>
+<input type="text" id="phone"><br><br>
+
+<button onclick="splitNumber()">Split Number</button>
+
+<br><br>
+
+<label>Area Code:</label>
+<input type="text" id="area" readonly><br><br>
+
+<label>Phone Number:</label>
+<input type="text" id="number" readonly>
+
+<script>
+
+function splitNumber() {
+
+    let input = document.getElementById("phone").value;
+
+    // Expected format: (555)555-555
+
+    if (input === "") {
+        alert("Please enter phone number");
+        return;
+    }
+
+    // Step 1: split using ")"
+    let parts = input.split(")");
+
+    if (parts.length !== 2) {
+        alert("Invalid format! Use (555)555-555");
+        return;
+    }
+
+    // Area code (remove "(")
+    let areaCode = parts[0].replace("(", "");
+
+    // Remaining number
+    let phoneNumber = parts[1];
+
+    // Display results
+    document.getElementById("area").value = areaCode;
+    document.getElementById("number").value = phoneNumber;
+}
+
+</script>
+
+</body>
+</html>

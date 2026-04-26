@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maruti Survey</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+        th {
+            background-color: #ddd;
+        }
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Car Survey Form</h2>
+
+<!-- FORM -->
+<label>Select City:</label>
+<select id="city">
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Chennai</option>
+    <option>Kolkata</option>
+</select>
+
+<br><br>
+
+<label>Select Car Model:</label>
+<select id="car">
+    <option>Maruti-K10</option>
+    <option>Zen-Astelo</option>
+    <option>Wagnor</option>
+    <option>Maruti-SX4</option>
+</select>
+
+<br><br>
+
+<button onclick="addData()">Submit</button>
+
+<!-- TABLE -->
+<h2>Survey Report</h2>
+
+<table>
+    <tr>
+        <th>City</th>
+        <th>Maruti-K10</th>
+        <th>Zen-Astelo</th>
+        <th>Wagnor</th>
+        <th>Maruti-SX4</th>
+    </tr>
+
+    <tr>
+        <td>Delhi</td>
+        <td id="Delhi0">0</td>
+        <td id="Delhi1">0</td>
+        <td id="Delhi2">0</td>
+        <td id="Delhi3">0</td>
+    </tr>
+
+    <tr>
+        <td>Mumbai</td>
+        <td id="Mumbai0">0</td>
+        <td id="Mumbai1">0</td>
+        <td id="Mumbai2">0</td>
+        <td id="Mumbai3">0</td>
+    </tr>
+
+    <tr>
+        <td>Chennai</td>
+        <td id="Chennai0">0</td>
+        <td id="Chennai1">0</td>
+        <td id="Chennai2">0</td>
+        <td id="Chennai3">0</td>
+    </tr>
+
+    <tr>
+        <td>Kolkata</td>
+        <td id="Kolkata0">0</td>
+        <td id="Kolkata1">0</td>
+        <td id="Kolkata2">0</td>
+        <td id="Kolkata3">0</td>
+    </tr>
+</table>
+
+<script>
+    const carIndex = {
+        "Maruti-K10": 0,
+        "Zen-Astelo": 1,
+        "Wagnor": 2,
+        "Maruti-SX4": 3
+    };
+
+    function addData() {
+        let city = document.getElementById("city").value;
+        let car = document.getElementById("car").value;
+
+        let index = carIndex[car];
+
+        let cell = document.getElementById(city + index);
+        cell.innerHTML = parseInt(cell.innerHTML) + 1;
+    }
+</script>
+
+</body>
+</html>

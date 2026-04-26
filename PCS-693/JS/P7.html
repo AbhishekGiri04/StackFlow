@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Birth Day Finder</title>
+</head>
+
+<body>
+
+<h2>Find Day of Your Birthdate</h2>
+
+<label>Enter Birthdate:</label>
+<input type="date" id="birthdate">
+
+<button onclick="findDay()">Get Day</button>
+
+<script>
+
+function findDay() {
+
+    let inputDate = document.getElementById("birthdate").value;
+
+    if (inputDate === "") {
+        alert("Please enter a birthdate");
+        return;
+    }
+
+    let date = new Date(inputDate);
+
+    let days = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ];
+
+    let dayIndex = date.getDay();
+
+    alert("You were born on: " + days[dayIndex]);
+}
+
+</script>
+
+</body>
+</html>

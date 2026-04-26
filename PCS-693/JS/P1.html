@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Validation</title>
+</head>
+
+<body>
+
+<h2>Credit Card Validator</h2>
+
+<form onsubmit="return validateCard()">
+    <label>Enter your credit card number:</label><br>
+    <input type="text" id="cardNumber" placeholder="Enter number"><br><br>
+    <input type="submit" value="Validate">
+</form>
+
+<script>
+function validateCard() {
+
+    var cardNumber = document.getElementById("cardNumber").value.trim();
+
+    // Check only digits
+    if (!/^\d+$/.test(cardNumber)) {
+        alert("Please enter digits only");
+        return false;
+    }
+
+    var cardType = "";
+
+    // MasterCard: 51–55 and 16 digits
+    if (/^5[1-5]\d{14}$/.test(cardNumber)) {
+        cardType = "MasterCard";
+    }
+
+    // Visa: starts with 4 and 13 or 16 digits
+    else if (/^4(\d{12}|\d{15})$/.test(cardNumber)) {
+        cardType = "Visa";
+    }
+
+    // American Express: 34 or 37 and 15 digits
+    else if (/^3[47]\d{13}$/.test(cardNumber)) {
+        cardType = "American Express";
+    }
+
+    else {
+        alert("Invalid card number");
+        return false;
+    }
+
+    alert("Valid Card ✔: " + cardType);
+    return false;
+}
+</script>
+
+</body>
+</html>

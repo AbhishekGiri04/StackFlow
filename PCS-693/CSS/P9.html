@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Styled Web Page</title>
+
+<style>
+
+/* i. Different font styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-image: url("https://miro.medium.com/1*zy4V60togvKjODoTCuG61g.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: white;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    text-align: center; /* fixed typo: test-align → text-align */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Verdana", sans-serif;
+}
+
+/* iv. Link styles */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer; /* fixed cursor */
+}
+
+a:active {
+    color: green;
+}
+
+/* Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.8);
+
+    /* iii. background repeat control */
+    background-image: url("https://media.istockphoto.com/id/1370679958/vector/light-bulb-icon-with-long-shadow-on-blank-background-flat-design.jpg?s=612x612&w=0&k=20&c=puxQHLB5Cm6KKA88ZQdz3jwBnb07HQYHZpoZgEPKkNI=");
+    background-repeat: repeat-x;
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: white;
+}
+
+/* vi. Layers (pseudo-element overlay) */
+#about {
+    position: relative;
+    overflow: hidden;
+}
+
+#about::after {
+    content: "";
+    position: absolute; /* fixed typo: poition → position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://cdn.dribbble.com/userupload/42774216/file/still-ae8153cc7f76a3436f7051261887d11a.png?resize=400x0");
+    opacity: 0.3;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* keep text above overlay */
+#about * {
+    position: relative;
+    z-index: 1;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <header>
+        <h1>Welcome to My Styled Web Page</h1>
+    </header>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section of the page.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>This is the about section with layered background effect.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>This is the contact section of the page.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 My Styled Web Page</p>
+</footer>
+
+</body>
+</html>

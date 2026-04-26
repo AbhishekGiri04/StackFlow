@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="assets/StackFlow.png" alt="StackFlow Banner" width="100%" style="margin-bottom: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);"/>
+<img src="assets/StackFlow.png" alt="StackFlow Banner" width="100%" style="border-radius: 15px;"/>
 
 <h1>⚡ StackFlow — Full-Stack Web Development Learning Journey</h1>
 
-<p style="color: #2563eb; margin: 15px 0; font-size: 1.1em;">🚀 A structured, hands-on full-stack web development learning repository covering HTML fundamentals, CSS styling, and JavaScript interactivity — built through real lab programs, practical experiments, and progressive challenges.</p>
-
-<p style="font-size: 1.2em; color: #1e40af; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 20px; border-radius: 12px; max-width: 800px; margin: 20px auto; line-height: 1.6; border-left: 4px solid #2563eb;">
-🧩 <b>19 Lab Programs</b> with examples | 🎨 <b>CSS Styling</b> | 🛠️ <b>JavaScript Logic</b> | 📄 <b>HTML Structure</b>
-</p>
+<p>A structured, hands-on full-stack web development learning repository covering HTML fundamentals, CSS styling, and JavaScript interactivity — built through real lab programs, practical experiments, and progressive challenges.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -22,109 +18,123 @@
 
 ---
 
-## 📁 Project Directory Structure
+## 📁 Project Structure
 
 ```
 StackFlow/
-├── 📄 index.html               # Main landing page (semantic HTML)
+├── 📄 index.html               # HTML tutorial starter — headings, anchor, span
 ├── 📄 heading.html             # H1–H6 hierarchy, <pre>, <hr>, <br>
-├── 📄 formating.html           # Text formatting: bold, italic, sub, sup
-├── 📄 colors.html              # Colors, inline styles, <abbr>, <bdo>, <cite>
-├── 📄 linktags.html            # Anchor tags, mailto, internal anchors
-├── 📄 style.css                # Global stylesheet (background, typography)
+├── 📄 formating.html           # Text formatting: <b>, <strong>, <em>, <sub>, <sup>
+├── 📄 colors.html              # Colors, inline styles, <abbr>, <bdo>, <blockquote>, <cite>
+├── 📄 linktags.html            # Anchor tags, mailto, internal anchor scroll
+├── 📄 style.css                # Global stylesheet (background color, font color)
 ├── 📄 README.md                # Project documentation
 ├── 📄 LICENSE                  # MIT License
 ├── 📄 .gitignore               # Git ignore patterns
 │
-├── 📂 assets/                  # Static assets
-│   └── 🖼️  StackFlow.png       # Project banner
+├── 📂 assets/
+│   └── 🖼️  StackFlow.png       # Project banner image
 │
-└── 📂 PCS-693/                 # FSWD Lab Programs (19 Practicals)
+└── 📂 PCS-693/                 # FSWD Lab Programs — 29 Practicals
     │
-    ├── 🧩 HTML Fundamentals
-    │   ├── 📄 P1.html          # Text formatting tags
-    │   ├── 📄 P2.html          # Table with rowspan & colspan
-    │   ├── 📄 P3.html          # Image table (mobile network logos)
-    │   └── 📄 P4.html          # Image map with clickable areas
+    ├── 📂 HTML/                # 9 HTML Practicals
+    │   ├── 📄 P1.html          # Text formatting tags — <strong>, <em>, <mark>, <code>, <kbd>, <abbr>, <pre>
+    │   ├── 📄 P2.html          # Star figure using <pre> tag
+    │   ├── 📄 P3.html          # Complex table — rowspan & colspan (Course-wise subjects)
+    │   ├── 📄 P4.html          # Image table — Mobile network logos with colspan
+    │   ├── 📄 P5.html          # Image map — Clickable regions using <map> and <area>
+    │   ├── 📄 P6.html          # HTML Form — Basic & extra info with fieldset, radio, checkbox, color picker
+    │   ├── 📄 P7.html          # Hotel Customer Profile Form — text, number, radio, select, submit
+    │   ├── 📄 P8.html          # HTML5 tags — <video>, <audio>, <article>, <datalist>, <bdi>, <embed>, <output>
+    │   └── 📄 P9.html          # Nested lists — ordered & unordered (Programming Languages & Web Dev)
     │
-    ├── 🎨 CSS Styling
-    │   ├── 📄 P5.html          # Link pseudo-classes (:link, :visited, :active)
-    │   ├── 📄 P6.html          # box-shadow and text-shadow
-    │   ├── 📄 P7.html          # border-radius (rounded corners)
-    │   ├── 📄 P8.html          # Multi-column newspaper layout
-    │   ├── 📄 P9.html          # CSS transitions + rotate on hover
-    │   ├── 📄 P10.html         # Fixed background (background-attachment: fixed)
-    │   ├── 📄 P11.html         # Background positioning + repeat-x
-    │   ├── 📄 P12.html         # Resizable background (background-size: 50%)
-    │   ├── 📄 P13.html         # Full webpage: header, nav, sections, footer
-    │   └── 📄 P18.html         # Scrolling status bar (@keyframes animation)
+    ├── 📂 CSS/                 # 9 CSS Practicals
+    │   ├── 📄 P1.html          # Link pseudo-classes — :link, :visited, :active
+    │   ├── 📄 P2.html          # box-shadow and text-shadow
+    │   ├── 📄 P3.html          # border-radius — Rounded corners
+    │   ├── 📄 P4.html          # Multi-column newspaper layout — column-count, column-gap, column-rule
+    │   ├── 📄 P5.html          # CSS transitions — background-color change + rotate(360deg) on hover
+    │   ├── 📄 P6.html          # Fixed background — background-attachment: fixed
+    │   ├── 📄 P7.html          # Background positioning — background-position, repeat-x, background-size
+    │   ├── 📄 P8.html          # CSS positioning — static, relative, absolute, fixed, sticky
+    │   └── 📄 P9.html          # Full styled webpage — header, nav, sections, footer, pseudo-elements, link states
     │
-    ├── 🛠️ JavaScript
-    │   ├── 📄 P14.html         # Credit card validator (Visa, MasterCard, Amex)
-    │   ├── 📄 P15.html         # Form validation (name, email, password + regex)
-    │   ├── 📄 P16.html         # Birthday day-of-week checker (Date API)
-    │   ├── 📄 P17.html         # Live clock (self-updating via setInterval)
-    │   └── 📄 P19.html         # Car survey with dynamic results table
+    ├── 📂 JS/                  # 11 JavaScript Practicals
+    │   ├── 📄 P1.html          # Credit card validator — regex for Visa, MasterCard, Amex
+    │   ├── 📄 P2.html          # Form validation — name, email, password with regex
+    │   ├── 📄 P3.html          # Country-Capital matcher — dropdown + JS object lookup
+    │   ├── 📄 P4.html          # Simple calculator — +, -, *, / with input validation
+    │   ├── 📄 P5.html          # Self-modifying page — random bg color + time update via setInterval
+    │   ├── 📄 P6.html          # Running digital clock — live HH:MM:SS via setInterval
+    │   ├── 📄 P7.html          # Birthday day finder — day of week using Date object
+    │   ├── 📄 P8.html          # Telephone number parser — split area code & number using string methods
+    │   ├── 📄 P9.html          # JS functions — leftmost vowel finder + number reverser
+    │   ├── 📄 P10.html         # Case converter — toggles uppercase ↔ lowercase char by char
+    │   └── 📄 P11.html         # Car survey — dynamic results table tracking city × model votes
     │
     └── 📄 FSWD Lab Manual.pdf  # Official lab manual
 ```
 
 ---
 
-<div>
+## 🎯 Core Pages (Root Level)
 
-<div align="center">
-
-## 🎯 Core Pages
-
-| 📄 File | 🎯 What You'll Learn |
-|---------|----------------------|
-| [index.html](index.html) | HTML document structure, semantic tags, basic navigation |
-| [heading.html](heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` usage |
-| [formating.html](formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, `<blockquote>` |
-| [colors.html](colors.html) | Inline styles, named colors, hex, RGB, `<abbr>`, `<bdo>` |
-| [linktags.html](linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, anchor scroll |
+| 📄 File | 🎯 What It Covers |
+|---------|-------------------|
+| [index.html](index.html) | HTML document structure, headings, anchor tag, span |
+| [heading.html](heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` |
+| [formating.html](formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, lists |
+| [colors.html](colors.html) | Inline styles, RGB/hex colors, `<abbr>`, `<bdo>`, `<blockquote>`, `<cite>` |
+| [linktags.html](linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, internal anchor scroll |
 | [style.css](style.css) | Global CSS — background color, font color |
-
-</div>
 
 ---
 
 ## 💻 PCS-693 — FSWD Lab Programs
 
-### 📦 HTML Fundamentals
+### 🧩 HTML Practicals
 
 | # | 📄 File | 📚 Concept |
 |---|---------|------------|
-| 1 | [P1.html](PCS-693/P1.html) | `<strong>`, `<em>`, `<mark>`, `<code>`, `<kbd>`, `<samp>`, `<pre>`, `<abbr>` |
-| 2 | [P2.html](PCS-693/P2.html) | Complex table — `rowspan` & `colspan` (Course-wise subjects) |
-| 3 | [P3.html](PCS-693/P3.html) | Image table — Mobile network logos with `colspan` |
-| 4 | [P4.html](PCS-693/P4.html) | Image map — Clickable regions using `<map>` and `<area>` |
+| 1 | [P1.html](PCS-693/HTML/P1.html) | `<strong>`, `<em>`, `<u>`, `<mark>`, `<code>`, `<kbd>`, `<samp>`, `<abbr>`, `<blockquote>`, `<pre>`, `<small>` |
+| 2 | [P2.html](PCS-693/HTML/P2.html) | Star figure pattern drawn using `<pre>` tag |
+| 3 | [P3.html](PCS-693/HTML/P3.html) | Complex table — `rowspan` & `colspan` (MBA & MCM course subjects with marks) |
+| 4 | [P4.html](PCS-693/HTML/P4.html) | Image table — Mobile network logos (Vodafone, Reliance, Tata, Aircel etc.) with `colspan` |
+| 5 | [P5.html](PCS-693/HTML/P5.html) | Image map — Clickable hotspot regions using `<map>` and `<area shape="rect">` |
+| 6 | [P6.html](PCS-693/HTML/P6.html) | HTML Form — `<fieldset>`, `<legend>`, text, radio, checkbox, color picker, submit/reset |
+| 7 | [P7.html](PCS-693/HTML/P7.html) | Hotel Customer Profile Form — name, address, age, gender, room type, payment type |
+| 8 | [P8.html](PCS-693/HTML/P8.html) | HTML5 semantic & media tags — `<video>`, `<audio>`, `<article>`, `<datalist>`, `<bdi>`, `<embed>`, `<output>` |
+| 9 | [P9.html](PCS-693/HTML/P9.html) | Nested lists — Programming Languages (Python, Java) & Web Dev (Frontend, Backend) |
 
-### 🎨 CSS Styling
-
-| # | 📄 File | 📚 Concept |
-|---|---------|------------|
-| 5 | [P5.html](PCS-693/P5.html) | Link pseudo-classes — `:link`, `:visited`, `:active` |
-| 6 | [P6.html](PCS-693/P6.html) | `box-shadow` and `text-shadow` |
-| 7 | [P7.html](PCS-693/P7.html) | `border-radius` — Rounded corners |
-| 8 | [P8.html](PCS-693/P8.html) | Multi-column layout — `column-count`, `column-gap` |
-| 9 | [P9.html](PCS-693/P9.html) | CSS transitions — color change + `rotate(360deg)` on hover |
-| 10 | [P10.html](PCS-693/P10.html) | Fixed background — `background-attachment: fixed` |
-| 11 | [P11.html](PCS-693/P11.html) | Background positioning — `background-position`, `repeat-x` |
-| 12 | [P12.html](PCS-693/P12.html) | Resizable background — `background-size: 50%` |
-| 13 | [P13.html](PCS-693/P13.html) | Full webpage — header, nav, sections, footer with full CSS |
-| 18 | [P18.html](PCS-693/P18.html) | Scrolling status bar — CSS `@keyframes` + `translateX` animation |
-
-### ⚙️ JavaScript
+### 🎨 CSS Practicals
 
 | # | 📄 File | 📚 Concept |
 |---|---------|------------|
-| 14 | [P14.html](PCS-693/P14.html) | Credit card validator — regex for Visa, MasterCard, Amex |
-| 15 | [P15.html](PCS-693/P15.html) | Form validation — name, email, password with regex |
-| 16 | [P16.html](PCS-693/P16.html) | Birthday checker — day of week using `Date` object |
-| 17 | [P17.html](PCS-693/P17.html) | Live clock — self-updating page using `setInterval` |
-| 19 | [P19.html](PCS-693/P19.html) | Car survey — dynamic results table with JS object tracking |
+| 1 | [P1.html](PCS-693/CSS/P1.html) | Link pseudo-classes — `:link` (pink), `:active` (blue), `:visited` (green) |
+| 2 | [P2.html](PCS-693/CSS/P2.html) | `box-shadow: 10px 10px 8px gray` and `text-shadow: 3px 3px 5px gray` |
+| 3 | [P3.html](PCS-693/CSS/P3.html) | `border-radius: 20px` — Rounded corners on a box |
+| 4 | [P4.html](PCS-693/CSS/P4.html) | Multi-column newspaper layout — `column-count: 3`, `column-gap`, `column-rule` |
+| 5 | [P5.html](PCS-693/CSS/P5.html) | CSS transitions — `background-color 2s` + `transform: rotate(360deg)` on hover |
+| 6 | [P6.html](PCS-693/CSS/P6.html) | Fixed background — `background-attachment: fixed` with scrollable content |
+| 7 | [P7.html](PCS-693/CSS/P7.html) | Background positioning — `background-position: top right`, `repeat-x`, `background-size: 200px` |
+| 8 | [P8.html](PCS-693/CSS/P8.html) | CSS positioning — `static`, `relative`, `absolute`, `fixed`, `sticky` all in one demo |
+| 9 | [P9.html](PCS-693/CSS/P9.html) | Full styled webpage — header, nav, sections, footer, `::after` pseudo-element overlay, all link states |
+
+### ⚙️ JavaScript Practicals
+
+| # | 📄 File | 📚 Concept |
+|---|---------|------------|
+| 1 | [P1.html](PCS-693/JS/P1.html) | Credit card validator — regex for Visa (`^4`), MasterCard (`^5[1-5]`), Amex (`^3[47]`) |
+| 2 | [P2.html](PCS-693/JS/P2.html) | Form validation — name (letters only), email (regex), password (8+ chars, number + special char) |
+| 3 | [P3.html](PCS-693/JS/P3.html) | Country-Capital matcher — dropdown selection + JS object lookup to verify correct pairs |
+| 4 | [P4.html](PCS-693/JS/P4.html) | Simple calculator — `+`, `-`, `*`, `/` with divide-by-zero and NaN validation |
+| 5 | [P5.html](PCS-693/JS/P5.html) | Self-modifying page — random background color + current time update every 60s via `setInterval` |
+| 6 | [P6.html](PCS-693/JS/P6.html) | Running digital clock — live `HH:MM:SS` with leading zeros, updates every second via `setInterval` |
+| 7 | [P7.html](PCS-693/JS/P7.html) | Birthday day finder — `<input type="date">` + `Date.getDay()` to find day of week |
+| 8 | [P8.html](PCS-693/JS/P8.html) | Telephone number parser — splits `(555)555-555` into area code and number using `split()` |
+| 9 | [P9.html](PCS-693/JS/P9.html) | JS functions — leftmost vowel position finder + number reverser using `split().reverse().join()` |
+| 10 | [P10.html](PCS-693/JS/P10.html) | Case converter — toggles each character between uppercase ↔ lowercase using `toUpperCase()`/`toLowerCase()` |
+| 11 | [P11.html](PCS-693/JS/P11.html) | Car survey — dynamic results table tracking votes per city × car model using JS object indexing |
 
 ---
 
@@ -152,58 +162,35 @@ python -m http.server 8000
 
 After exploring this project, you will understand:
 
-✅ **HTML Structure** - Semantic markup, tables, forms, image maps  
-✅ **CSS Styling** - Box model, shadows, backgrounds, transitions, animations  
-✅ **JavaScript DOM** - Selection, manipulation, and dynamic rendering  
-✅ **Form Validation** - Regex-based input validation patterns  
-✅ **CSS Animations** - Keyframes, transforms, and pseudo-classes  
-✅ **Date API** - Working with `Date` object and time-based logic  
-✅ **Live Updates** - `setInterval` for real-time page updates  
-✅ **Responsive Design** - Multi-column layouts and flexible backgrounds
+✅ **HTML Structure** — Semantic markup, tables, forms, image maps, HTML5 media tags  
+✅ **CSS Styling** — Box model, shadows, backgrounds, transitions, positioning, pseudo-elements  
+✅ **JavaScript DOM** — Selection, manipulation, and dynamic rendering  
+✅ **Form Validation** — Regex-based input validation for name, email, password, credit cards  
+✅ **CSS Animations** — Transitions, transforms, pseudo-classes  
+✅ **Date API** — Working with `Date` object and `getDay()` for time-based logic  
+✅ **Live Updates** — `setInterval` for real-time clocks and self-modifying pages  
+✅ **String Methods** — `split()`, `reverse()`, `join()`, `toUpperCase()`, `toLowerCase()`  
+✅ **Multi-column Layouts** — `column-count`, `column-gap`, `column-rule`  
+✅ **CSS Positioning** — `static`, `relative`, `absolute`, `fixed`, `sticky`
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-<table>
-<thead>
-<tr>
-<th>🖥️ Technology</th>
-<th>⚙️ Purpose</th>
-<th>📊 What's Covered</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></td>
-<td>Structure & Markup</td>
-<td>Semantic tags, tables, forms, image maps, links</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></td>
-<td>Styling & Layout</td>
-<td>Flexbox, transitions, animations, backgrounds, shadows, pseudo-classes</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></td>
-<td>Interactivity & Logic</td>
-<td>DOM manipulation, form validation, regex, Date API, setInterval</td>
-</tr>
-</tbody>
-</table>
-
-</div>
+| 🖥️ Technology | ⚙️ Purpose | 📊 What's Covered |
+|---------------|------------|-------------------|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure & Markup | Semantic tags, tables, forms, image maps, HTML5 media |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling & Layout | Shadows, transitions, positioning, backgrounds, pseudo-classes, pseudo-elements |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic | DOM manipulation, form validation, regex, Date API, setInterval, string methods |
 
 ---
 
 ## 🌟 Key Features
 
-- **📄 19 Lab Programs** — Covering a wide range of web development concepts
+- **📄 29 Lab Programs** — 9 HTML + 9 CSS + 11 JavaScript practicals
 - **📚 Educational** — Clear, well-structured code with progressive difficulty
 - **🚀 Practical** — Real-world HTML, CSS, and JavaScript use cases
-- **🔧 Modular** — Separate files for each concept, easy to explore
+- **🔧 Modular** — Separate folders for HTML, CSS, JS — easy to navigate
 - **⚙️ Zero Setup** — No build tools or dependencies, just open in a browser
 - **💡 Learning-Focused** — Step-by-step progression from basics to JS interactivity
 
@@ -213,28 +200,21 @@ After exploring this project, you will understand:
 
 <div align="center">
 
-> 💬 *Questions about StackFlow?*  
-> Feel free to reach out for help or collaboration!
-
-<br/>
-
 **👤 Abhishek Giri** — Creator & Maintainer
 
 <a href="https://linkedin.com/in/abhishek-giri04">
-  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-</a>  
+  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
 <a href="https://github.com/abhishekgiri04">
-  <img src="https://img.shields.io/badge/Follow%20on-GitHub-100000?style=for-the-badge&logo=github" alt="GitHub"/>
-</a>  
+  <img src="https://img.shields.io/badge/Follow%20on-GitHub-100000?style=for-the-badge&logo=github"/>
+</a>
 <a href="mailto:abhishekgiri.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail"/>
 </a>
 
 </div>
 
 ---
-
-<div align="center">
 
 ## 📄 License
 
@@ -242,22 +222,16 @@ This project is open source and available under the **MIT License** — see the 
 
 ---
 
-**⚡ Built with ❤️ for Learning Web Development**  
+<div align="center">
+
+**⚡ Built with ❤️ for Learning Web Development**
+
 *Mastering HTML, CSS & JavaScript from the ground up*
-
-<p style="font-size: 1.1em; color: #1e40af; margin: 20px 0;">
-<b>StackFlow</b> — Full-Stack Web Development Learning Journey<br/>
-<em>Building strong foundations in modern web development</em>
-</p>
-
----
-
-**© 2026 Abhishek Giri | StackFlow**
-
-*Empowering developers with practical web development skills*
 
 <img src="https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JS-FF6B6B?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Purpose-Learning-4CAF50?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge"/>
+
+**© 2026 Abhishek Giri | StackFlow**
 
 </div>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+
+    <h2 align="center">Image Map Example</h2>
+    <p align="center">
+        Click on different parts of the image to view related information.
+    </p>
+
+    <center>
+        <img 
+            src="https://www.cuteeasydrawings.com/wp-content/uploads/2502/1_250209094959_9.png"
+            alt="Pig Image"
+            usemap="#imagemap"
+            width="700"
+        >
+    </center>
+
+    <map name="imagemap">
+
+        <!-- Hotspot 1 -->
+        <area 
+            shape="rect"
+            coords="50,50,200,200"
+            href="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMGF5bDA5N2czem4xaDg5ZjhlOWx4Mm5pcWJkcnd2cXIyOGs5eXJ2aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gRt2NcSfFeFna/giphy.gif"
+            alt="Pig GIF 1"
+            target="_blank"
+        >
+
+        <!-- Hotspot 2 -->
+        <area 
+            shape="rect"
+            coords="250,50,400,200"
+            href="https://media.tenor.com/FmdrdlYf2FwAAAAM/cerdito-valiente-cerdito.gif"
+            alt="Pig GIF 2"
+            target="_blank"
+        >
+
+        <!-- Hotspot 3 -->
+        <area 
+            shape="rect"
+            coords="450,50,600,200"
+            href="https://media.tenor.com/065I3RR95ZIAAAAM/cerdito-valiente.gif"
+            alt="Pig GIF 3"
+            target="_blank"
+        >
+
+    </map>
+
+</body>
+</html>
