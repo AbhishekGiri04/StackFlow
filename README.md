@@ -80,7 +80,7 @@ StackFlow/
     │   ├── 📄 P10.html         # Case converter — toggles uppercase ↔ lowercase char by char
     │   └── 📄 P11.html         # Car survey — dynamic results table tracking city × model votes
     │
-    └── 📄 FSWD Lab Manual.pdf  # Official lab manual
+    └── 📄 FSWDLabManual.pdf  # Official lab manual
 ```
 
 ---
