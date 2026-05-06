@@ -22,18 +22,26 @@
 
 ```
 StackFlow/
-├── 📄 index.html               # HTML tutorial starter — headings, anchor, span
-├── 📄 heading.html             # H1–H6 hierarchy, <pre>, <hr>, <br>
-├── 📄 formating.html           # Text formatting: <b>, <strong>, <em>, <sub>, <sup>
-├── 📄 colors.html              # Colors, inline styles, <abbr>, <bdo>, <blockquote>, <cite>
-├── 📄 linktags.html            # Anchor tags, mailto, internal anchor scroll
-├── 📄 style.css                # Global stylesheet (background color, font color)
 ├── 📄 README.md                # Project documentation
 ├── 📄 LICENSE                  # MIT License
 ├── 📄 .gitignore               # Git ignore patterns
 │
 ├── 📂 assets/
 │   └── 🖼️  StackFlow.png       # Project banner image
+│
+├── 📂 Html/                    # Core HTML learning pages
+│   ├── 📄 index.html           # HTML document structure, headings, anchor tag, span
+│   ├── 📄 heading.html         # H1–H6 hierarchy, <pre>, <hr>, <br>
+│   ├── 📄 formating.html       # Text formatting: <b>, <strong>, <em>, <sub>, <sup>
+│   ├── 📄 colors.html          # Colors, inline styles, <abbr>, <bdo>, <blockquote>, <cite>
+│   ├── 📄 linktags.html        # Anchor tags, mailto, internal anchor scroll
+│   └── 📄 style.css            # Global stylesheet (background color, font color)
+│
+├── 📂 JS/                      # Core JavaScript learning scripts
+│   ├── 📄 variable.js          # var, let, const — scope, reassignment, console.table
+│   ├── 📄 datatypes.js         # JS data types — number, string, boolean, null, undefined, symbol
+│   ├── 📄 ConversionOperation.js # Type conversion — Number(), typeof operator
+│   └── 📄 test.js              # Scratch/test file
 │
 └── 📂 PCS-693/                 # FSWD Lab Programs — 29 Practicals
     │
@@ -77,16 +85,27 @@ StackFlow/
 
 ---
 
-## 🎯 Core Pages (Root Level)
+## 🎯 Html/ — Core Pages
 
 | 📄 File | 🎯 What It Covers |
 |---------|-------------------|
-| [index.html](index.html) | HTML document structure, headings, anchor tag, span |
-| [heading.html](heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` |
-| [formating.html](formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, lists |
-| [colors.html](colors.html) | Inline styles, RGB/hex colors, `<abbr>`, `<bdo>`, `<blockquote>`, `<cite>` |
-| [linktags.html](linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, internal anchor scroll |
-| [style.css](style.css) | Global CSS — background color, font color |
+| [index.html](Html/index.html) | HTML document structure, headings, anchor tag, span |
+| [heading.html](Html/heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` |
+| [formating.html](Html/formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, lists |
+| [colors.html](Html/colors.html) | Inline styles, RGB/hex colors, `<abbr>`, `<bdo>`, `<blockquote>`, `<cite>` |
+| [linktags.html](Html/linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, internal anchor scroll |
+| [style.css](Html/style.css) | Global CSS — background color, font color |
+
+---
+
+## ⚙️ JS/ — Core JavaScript Scripts
+
+| 📄 File | 🎯 What It Covers |
+|---------|-------------------|
+| [variable.js](JS/variable.js) | `var`, `let`, `const` — scope, reassignment, `console.table` |
+| [datatypes.js](JS/datatypes.js) | JS primitives — `number`, `string`, `boolean`, `null`, `undefined`, `symbol`, `typeof` |
+| [ConversionOperation.js](JS/ConversionOperation.js) | Type conversion — `Number()`, `typeof` operator |
+| [test.js](JS/test.js) | Scratch/test file |
 
 ---
 
@@ -99,7 +118,7 @@ StackFlow/
 | 1 | [P1.html](PCS-693/HTML/P1.html) | `<strong>`, `<em>`, `<u>`, `<mark>`, `<code>`, `<kbd>`, `<samp>`, `<abbr>`, `<blockquote>`, `<pre>`, `<small>` |
 | 2 | [P2.html](PCS-693/HTML/P2.html) | Star figure pattern drawn using `<pre>` tag |
 | 3 | [P3.html](PCS-693/HTML/P3.html) | Complex table — `rowspan` & `colspan` (MBA & MCM course subjects with marks) |
-| 4 | [P4.html](PCS-693/HTML/P4.html) | Image table — Mobile network logos (Vodafone, Reliance, Tata, Aircel etc.) with `colspan` |
+| 4 | [P4.html](PCS-693/HTML/P4.html) | Image table — Mobile network logos with `colspan` |
 | 5 | [P5.html](PCS-693/HTML/P5.html) | Image map — Clickable hotspot regions using `<map>` and `<area shape="rect">` |
 | 6 | [P6.html](PCS-693/HTML/P6.html) | HTML Form — `<fieldset>`, `<legend>`, text, radio, checkbox, color picker, submit/reset |
 | 7 | [P7.html](PCS-693/HTML/P7.html) | Hotel Customer Profile Form — name, address, age, gender, room type, payment type |
@@ -147,7 +166,7 @@ git clone https://github.com/AbhishekGiri04/StackFlow.git
 cd StackFlow
 
 # Open in browser
-open index.html
+open Html/index.html
 
 # Or spin up a local dev server
 python -m http.server 8000
@@ -165,6 +184,7 @@ After exploring this project, you will understand:
 ✅ **HTML Structure** — Semantic markup, tables, forms, image maps, HTML5 media tags  
 ✅ **CSS Styling** — Box model, shadows, backgrounds, transitions, positioning, pseudo-elements  
 ✅ **JavaScript DOM** — Selection, manipulation, and dynamic rendering  
+✅ **JS Fundamentals** — Variables, data types, type conversion, scope (`var`/`let`/`const`)  
 ✅ **Form Validation** — Regex-based input validation for name, email, password, credit cards  
 ✅ **CSS Animations** — Transitions, transforms, pseudo-classes  
 ✅ **Date API** — Working with `Date` object and `getDay()` for time-based logic  
@@ -181,7 +201,7 @@ After exploring this project, you will understand:
 |---------------|------------|-------------------|
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure & Markup | Semantic tags, tables, forms, image maps, HTML5 media |
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling & Layout | Shadows, transitions, positioning, backgrounds, pseudo-classes, pseudo-elements |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic | DOM manipulation, form validation, regex, Date API, setInterval, string methods |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic | Variables, data types, type conversion, DOM manipulation, form validation, regex, Date API, setInterval, string methods |
 
 ---
 
@@ -190,7 +210,7 @@ After exploring this project, you will understand:
 - **📄 29 Lab Programs** — 9 HTML + 9 CSS + 11 JavaScript practicals
 - **📚 Educational** — Clear, well-structured code with progressive difficulty
 - **🚀 Practical** — Real-world HTML, CSS, and JavaScript use cases
-- **🔧 Modular** — Separate folders for HTML, CSS, JS — easy to navigate
+- **🔧 Modular** — Separate folders for Html, JS, and PCS-693 labs — easy to navigate
 - **⚙️ Zero Setup** — No build tools or dependencies, just open in a browser
 - **💡 Learning-Focused** — Step-by-step progression from basics to JS interactivity
 
