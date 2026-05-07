@@ -239,9 +239,9 @@ After exploring this project, you will understand:
 
 ---
 
-## 📞 Contact & Support
-
 <div align="center">
+
+## 📞 Contact & Support
 
 **👤 Abhishek Giri** — Creator & Maintainer
 
@@ -255,8 +255,6 @@ After exploring this project, you will understand:
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail"/>
 </a>
 
-</div>
-
 ---
 
 ## 📄 License
@@ -264,8 +262,6 @@ After exploring this project, you will understand:
 This project is open source and available under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
-
-<div align="center">
 
 **⚡ Built with ❤️ for Learning Web Development**
 
