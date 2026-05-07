@@ -4,12 +4,14 @@
 
 <h1>⚡ StackFlow — Full-Stack Web Development Learning Journey</h1>
 
-<p>A structured, hands-on full-stack web development learning repository covering HTML fundamentals, CSS styling, and JavaScript interactivity — built through real lab programs, practical experiments, and progressive challenges.</p>
+<p>A structured, hands-on full-stack web development learning repository covering HTML, CSS, JavaScript, PHP, and React — built through real lab programs, practical experiments, and progressive challenges.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
 </p>
@@ -22,79 +24,88 @@
 
 ```
 StackFlow/
-├── 📄 README.md                # Project documentation
-├── 📄 LICENSE                  # MIT License
-├── 📄 .gitignore               # Git ignore patterns
+├── 📄 README.md                    # Project documentation
+├── 📄 LICENSE                      # MIT License
+├── 📄 .gitignore                   # Git ignore patterns
 │
 ├── 📂 assets/
-│   └── 🖼️  StackFlow.png       # Project banner image
+│   └── 🖼️  StackFlow.png           # Project banner image
 │
-├── 📂 Html/                    # Core HTML learning pages
-│   ├── 📄 index.html           # HTML document structure, headings, anchor tag, span
-│   ├── 📄 heading.html         # H1–H6 hierarchy, <pre>, <hr>, <br>
-│   ├── 📄 formating.html       # Text formatting: <b>, <strong>, <em>, <sub>, <sup>
-│   ├── 📄 colors.html          # Colors, inline styles, <abbr>, <bdo>, <blockquote>, <cite>
-│   ├── 📄 linktags.html        # Anchor tags, mailto, internal anchor scroll
-│   └── 📄 style.css            # Global stylesheet (background color, font color)
+├── 📂 HTML/                        # Core HTML learning pages
+│   ├── 📄 index.html               # HTML document structure, headings, anchor tag, span
+│   ├── 📄 heading.html             # H1–H6 hierarchy, <pre>, <hr>, <br>
+│   ├── 📄 formating.html           # Text formatting: <b>, <strong>, <em>, <sub>, <sup>
+│   ├── 📄 colors.html              # Colors, inline styles, <abbr>, <bdo>, <blockquote>, <cite>
+│   ├── 📄 linktags.html            # Anchor tags, mailto, internal anchor scroll
+│   └── 📄 style.css                # Global stylesheet (background color, font color)
 │
-├── 📂 JS/                      # Core JavaScript learning scripts
-│   ├── 📄 variable.js          # var, let, const — scope, reassignment, console.table
-│   ├── 📄 datatypes.js         # JS data types — number, string, boolean, null, undefined, symbol
-│   ├── 📄 ConversionOperation.js # Type conversion — Number(), typeof operator
-│   └── 📄 test.js              # Scratch/test file
+├── 📂 CSS/                         # Core CSS learning files (coming soon)
+│   └── 📄 .gitkeep
 │
-└── 📂 PCS-693/                 # FSWD Lab Programs — 29 Practicals
+├── 📂 JS/                          # Core JavaScript learning scripts
+│   ├── 📄 variable.js              # var, let, const — scope, reassignment, console.table
+│   ├── 📄 datatypes.js             # JS data types — number, string, boolean, null, undefined, symbol
+│   ├── 📄 ConversionOperation.js   # Type conversion — Number(), typeof operator
+│   └── 📄 test.js                  # Scratch/test file
+│
+├── 📂 PHP/                         # PHP learning files (coming soon)
+│   └── 📄 .gitkeep
+│
+├── 📂 REACT/                       # React learning files (coming soon)
+│   └── 📄 .gitkeep
+│
+└── 📂 PCS-693/                     # FSWD Lab Programs — 29 Practicals
     │
-    ├── 📂 HTML/                # 9 HTML Practicals
-    │   ├── 📄 P1.html          # Text formatting tags — <strong>, <em>, <mark>, <code>, <kbd>, <abbr>, <pre>
-    │   ├── 📄 P2.html          # Star figure using <pre> tag
-    │   ├── 📄 P3.html          # Complex table — rowspan & colspan (Course-wise subjects)
-    │   ├── 📄 P4.html          # Image table — Mobile network logos with colspan
-    │   ├── 📄 P5.html          # Image map — Clickable regions using <map> and <area>
-    │   ├── 📄 P6.html          # HTML Form — Basic & extra info with fieldset, radio, checkbox, color picker
-    │   ├── 📄 P7.html          # Hotel Customer Profile Form — text, number, radio, select, submit
-    │   ├── 📄 P8.html          # HTML5 tags — <video>, <audio>, <article>, <datalist>, <bdi>, <embed>, <output>
-    │   └── 📄 P9.html          # Nested lists — ordered & unordered (Programming Languages & Web Dev)
+    ├── 📂 HTML/                    # 9 HTML Practicals
+    │   ├── 📄 P1.html              # Text formatting tags — <strong>, <em>, <mark>, <code>, <kbd>, <abbr>, <pre>
+    │   ├── 📄 P2.html              # Star figure using <pre> tag
+    │   ├── 📄 P3.html              # Complex table — rowspan & colspan (Course-wise subjects)
+    │   ├── 📄 P4.html              # Image table — Mobile network logos with colspan
+    │   ├── 📄 P5.html              # Image map — Clickable regions using <map> and <area>
+    │   ├── 📄 P6.html              # HTML Form — fieldset, radio, checkbox, color picker
+    │   ├── 📄 P7.html              # Hotel Customer Profile Form — text, number, radio, select, submit
+    │   ├── 📄 P8.html              # HTML5 tags — <video>, <audio>, <article>, <datalist>, <bdi>, <embed>, <output>
+    │   └── 📄 P9.html              # Nested lists — ordered & unordered (Programming Languages & Web Dev)
     │
-    ├── 📂 CSS/                 # 9 CSS Practicals
-    │   ├── 📄 P1.html          # Link pseudo-classes — :link, :visited, :active
-    │   ├── 📄 P2.html          # box-shadow and text-shadow
-    │   ├── 📄 P3.html          # border-radius — Rounded corners
-    │   ├── 📄 P4.html          # Multi-column newspaper layout — column-count, column-gap, column-rule
-    │   ├── 📄 P5.html          # CSS transitions — background-color change + rotate(360deg) on hover
-    │   ├── 📄 P6.html          # Fixed background — background-attachment: fixed
-    │   ├── 📄 P7.html          # Background positioning — background-position, repeat-x, background-size
-    │   ├── 📄 P8.html          # CSS positioning — static, relative, absolute, fixed, sticky
-    │   └── 📄 P9.html          # Full styled webpage — header, nav, sections, footer, pseudo-elements, link states
+    ├── 📂 CSS/                     # 9 CSS Practicals
+    │   ├── 📄 P1.html              # Link pseudo-classes — :link, :visited, :active
+    │   ├── 📄 P2.html              # box-shadow and text-shadow
+    │   ├── 📄 P3.html              # border-radius — Rounded corners
+    │   ├── 📄 P4.html              # Multi-column newspaper layout — column-count, column-gap, column-rule
+    │   ├── 📄 P5.html              # CSS transitions — background-color change + rotate(360deg) on hover
+    │   ├── 📄 P6.html              # Fixed background — background-attachment: fixed
+    │   ├── 📄 P7.html              # Background positioning — background-position, repeat-x, background-size
+    │   ├── 📄 P8.html              # CSS positioning — static, relative, absolute, fixed, sticky
+    │   └── 📄 P9.html              # Full styled webpage — header, nav, sections, footer, pseudo-elements
     │
-    ├── 📂 JS/                  # 11 JavaScript Practicals
-    │   ├── 📄 P1.html          # Credit card validator — regex for Visa, MasterCard, Amex
-    │   ├── 📄 P2.html          # Form validation — name, email, password with regex
-    │   ├── 📄 P3.html          # Country-Capital matcher — dropdown + JS object lookup
-    │   ├── 📄 P4.html          # Simple calculator — +, -, *, / with input validation
-    │   ├── 📄 P5.html          # Self-modifying page — random bg color + time update via setInterval
-    │   ├── 📄 P6.html          # Running digital clock — live HH:MM:SS via setInterval
-    │   ├── 📄 P7.html          # Birthday day finder — day of week using Date object
-    │   ├── 📄 P8.html          # Telephone number parser — split area code & number using string methods
-    │   ├── 📄 P9.html          # JS functions — leftmost vowel finder + number reverser
-    │   ├── 📄 P10.html         # Case converter — toggles uppercase ↔ lowercase char by char
-    │   └── 📄 P11.html         # Car survey — dynamic results table tracking city × model votes
+    ├── 📂 JS/                      # 11 JavaScript Practicals
+    │   ├── 📄 P1.html              # Credit card validator — regex for Visa, MasterCard, Amex
+    │   ├── 📄 P2.html              # Form validation — name, email, password with regex
+    │   ├── 📄 P3.html              # Country-Capital matcher — dropdown + JS object lookup
+    │   ├── 📄 P4.html              # Simple calculator — +, -, *, / with input validation
+    │   ├── 📄 P5.html              # Self-modifying page — random bg color + time update via setInterval
+    │   ├── 📄 P6.html              # Running digital clock — live HH:MM:SS via setInterval
+    │   ├── 📄 P7.html              # Birthday day finder — day of week using Date object
+    │   ├── 📄 P8.html              # Telephone number parser — split area code & number using string methods
+    │   ├── 📄 P9.html              # JS functions — leftmost vowel finder + number reverser
+    │   ├── 📄 P10.html             # Case converter — toggles uppercase ↔ lowercase char by char
+    │   └── 📄 P11.html             # Car survey — dynamic results table tracking city × model votes
     │
-    └── 📄 FSWDLabManual.pdf  # Official lab manual
+    └── 📄 FSWDLabManual.pdf        # Official lab manual
 ```
 
 ---
 
-## 🎯 Html/ — Core Pages
+## 🎯 HTML/ — Core Pages
 
 | 📄 File | 🎯 What It Covers |
 |---------|-------------------|
-| [index.html](Html/index.html) | HTML document structure, headings, anchor tag, span |
-| [heading.html](Html/heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` |
-| [formating.html](Html/formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, lists |
-| [colors.html](Html/colors.html) | Inline styles, RGB/hex colors, `<abbr>`, `<bdo>`, `<blockquote>`, `<cite>` |
-| [linktags.html](Html/linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, internal anchor scroll |
-| [style.css](Html/style.css) | Global CSS — background color, font color |
+| [index.html](HTML/index.html) | HTML document structure, headings, anchor tag, span |
+| [heading.html](HTML/heading.html) | H1–H6 hierarchy, `<pre>`, `<hr>`, `<br>` |
+| [formating.html](HTML/formating.html) | `<b>`, `<strong>`, `<em>`, `<sub>`, `<sup>`, lists |
+| [colors.html](HTML/colors.html) | Inline styles, RGB/hex colors, `<abbr>`, `<bdo>`, `<blockquote>`, `<cite>` |
+| [linktags.html](HTML/linktags.html) | `<a>` tags, `mailto:`, `target="_blank"`, internal anchor scroll |
+| [style.css](HTML/style.css) | Global CSS — background color, font color |
 
 ---
 
@@ -106,6 +117,16 @@ StackFlow/
 | [datatypes.js](JS/datatypes.js) | JS primitives — `number`, `string`, `boolean`, `null`, `undefined`, `symbol`, `typeof` |
 | [ConversionOperation.js](JS/ConversionOperation.js) | Type conversion — `Number()`, `typeof` operator |
 | [test.js](JS/test.js) | Scratch/test file |
+
+---
+
+## 🔜 Coming Soon
+
+| 📂 Folder | 🚀 What's Planned |
+|-----------|-------------------|
+| `CSS/` | Core CSS — selectors, box model, flexbox, grid, animations |
+| `PHP/` | PHP fundamentals — syntax, forms, functions, MySQL integration |
+| `REACT/` | React — components, props, state, hooks, routing |
 
 ---
 
@@ -166,7 +187,7 @@ git clone https://github.com/AbhishekGiri04/StackFlow.git
 cd StackFlow
 
 # Open in browser
-open Html/index.html
+open HTML/index.html
 
 # Or spin up a local dev server
 python -m http.server 8000
@@ -197,11 +218,13 @@ After exploring this project, you will understand:
 
 ## 🛠️ Tech Stack
 
-| 🖥️ Technology | ⚙️ Purpose | 📊 What's Covered |
-|---------------|------------|-------------------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure & Markup | Semantic tags, tables, forms, image maps, HTML5 media |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling & Layout | Shadows, transitions, positioning, backgrounds, pseudo-classes, pseudo-elements |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic | Variables, data types, type conversion, DOM manipulation, form validation, regex, Date API, setInterval, string methods |
+| 🖥️ Technology | ⚙️ Purpose | 📊 Status |
+|---------------|------------|-----------|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure & Markup | ✅ Active |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling & Layout | ✅ Active |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic | ✅ Active |
+| ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) | Server-side Scripting | 🔜 Coming Soon |
+| ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | Frontend Framework | 🔜 Coming Soon |
 
 ---
 
@@ -210,9 +233,9 @@ After exploring this project, you will understand:
 - **📄 29 Lab Programs** — 9 HTML + 9 CSS + 11 JavaScript practicals
 - **📚 Educational** — Clear, well-structured code with progressive difficulty
 - **🚀 Practical** — Real-world HTML, CSS, and JavaScript use cases
-- **🔧 Modular** — Separate folders for Html, JS, and PCS-693 labs — easy to navigate
+- **🔧 Modular** — Separate folders for HTML, CSS, JS, PHP, REACT, and PCS-693 labs
 - **⚙️ Zero Setup** — No build tools or dependencies, just open in a browser
-- **💡 Learning-Focused** — Step-by-step progression from basics to JS interactivity
+- **💡 Learning-Focused** — Step-by-step progression from basics to advanced frameworks
 
 ---
 
@@ -246,9 +269,9 @@ This project is open source and available under the **MIT License** — see the 
 
 **⚡ Built with ❤️ for Learning Web Development**
 
-*Mastering HTML, CSS & JavaScript from the ground up*
+*Mastering HTML, CSS, JavaScript, PHP & React from the ground up*
 
-<img src="https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JS-FF6B6B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20PHP%20%7C%20React-FF6B6B?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Purpose-Learning-4CAF50?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge"/>
 
